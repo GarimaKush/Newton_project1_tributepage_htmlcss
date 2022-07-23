@@ -1,0 +1,82 @@
+body{
+    background-color: rgba(211, 211, 211, 0.941);
+    min: height 400px;;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    sans-serif; 
+    font-weight: 400;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    margin: 2rem;
+    overflow: hidden;
+}
+.box{
+    background-color: hsl(31, 72%, 52%);
+}
+.box2{
+    background-color:hsl(183, 100%, 22%);
+}
+.box3{
+    background-color:hsl(179, 100%, 13%);
+}
+.box{
+    padding: 40px;
+}
+.box h2{
+    font-family: uppercase;
+    color: white;
+    font-size: 30px;
+
+}
+.box p{
+    color: hsla(0, 0%, 100%, 0.75)
+    line-height: 1.6;
+}
+.box a{
+    text-decoration: none;
+    background-color:hsl(0, 0%, 95%);
+    padding: 
+}
+.box2{
+    padding: 40px;
+}
+.box2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.box2 p{
+    color: hsla(0, 0%, 100%, 0.75)
+    line-height: 1.6;
+}
+.box2 a{
+    text-decoration: none;
+    background-color:hsl(0, 0%, 95%);
+    padding:
+}
+.box3{
+    padding: 40px;
+}
+.box3 h2{
+    font-family: uppercase;
+    color: white;
+    font-size: 30px;
+}
+.box3 p{
+    color: hsla(0, 0%, 100%, 0.75)
+    line-height: 1.6;
+}
+.box3 a{
+    text-decoration: none;
+    background-color:hsl(0, 0%, 95%);
+    padding: 
+}
